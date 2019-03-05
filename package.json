@@ -30,6 +30,6 @@
     "install": "lerna bootstrap && lerna link",
     "commit": "git add . && git-cz",
     "beta": "lerna publish --conventional-commits --canary --preid beta",
-    "release": "lerna publish --conventional-commitss"
+    "release": "lerna publish --conventional-commits"
   }
 }
