@@ -40,6 +40,6 @@
     "clean": "rm -rf node_modules && lerna clean --yes",
     "install": "lerna bootstrap && lerna link",
     "commit": "git add . && git-cz",
-    "release": "lerna publish --conventional-commits --version=patch --yes --message 'chore(release): Publish'"
+    "release": "lerna publish --conventional-commits --version=patch --yes"
   }
 }
