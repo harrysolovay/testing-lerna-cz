@@ -1,6 +1,6 @@
 {
   "name": "testing-lerna-cz-usage",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "license": "MIT",
   "private": false,
@@ -13,7 +13,7 @@
     "directory": "packages/usage"
   },
   "dependencies": {
-    "testing-lerna-cz-a": "^1.0.2",
-    "testing-lerna-cz-b": "^1.0.2"
+    "testing-lerna-cz-a": "^1.0.3",
+    "testing-lerna-cz-b": "^1.0.3"
   }
 }

@@ -39,6 +39,7 @@
     "test": "ava",
     "clean": "rm -rf node_modules && lerna clean --yes",
     "install": "lerna bootstrap && lerna link",
-    "commit": "git add . && git-cz"
+    "commit": "git add . && git-cz",
+    "release": "lerna publish --no-git-reset"
   }
 }
