@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/harrysolovay/testing-lerna-cz/compare/testing-lerna-cz-a@1.3.1...testing-lerna-cz-a@1.4.0) (2019-03-05)
+
+
+### Features
+
+* **asdg:** asdgasdgasd ([26540c8](https://github.com/harrysolovay/testing-lerna-cz/commit/26540c8))
+
+
+
+
+
 ## [1.3.1](https://github.com/harrysolovay/testing-lerna-cz/compare/testing-lerna-cz-a@1.3.0...testing-lerna-cz-a@1.3.1) (2019-03-05)
 
 
