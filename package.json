@@ -1,0 +1,44 @@
+{
+  "name": "testing-lerna-cz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^7.5.2",
+    "@commitlint/config-conventional": "^7.5.0",
+    "@commitlint/config-lerna-scopes": "^7.5.1",
+    "ava": "^1.2.1",
+    "commitizen": "^3.0.7",
+    "cz-conventional-changelog": "^2.1.0",
+    "husky": "^1.3.1",
+    "lerna": "^3.13.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-lerna-scopes",
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-push": "npm run test"
+    }
+  },
+  "scripts": {
+    "test": "ava",
+    "clean": "rm -rf node_modules && lerna clean --yes",
+    "install": "lerna bootstrap && lerna link",
+    "commit": "git-cz",
+    "publish": "lerna publish --conventional-commits --version=patch --yes message 'chore(release): Publish'"
+  }
+}

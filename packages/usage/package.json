@@ -1,0 +1,19 @@
+{
+  "name": "testing-lerna-cz-usage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harrysolovay/testing-lerna-cz.git",
+    "directory": "packages/usage"
+  },
+  "dependencies": {
+    "testing-lerna-cz-a": "^1.0.0",
+    "testing-lerna-cz-b": "^1.0.0"
+  }
+}
