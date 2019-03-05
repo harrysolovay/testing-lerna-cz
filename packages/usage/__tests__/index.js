@@ -5,5 +5,5 @@ import b from 'testing-lerna-cz-b'
 test('works', t => {
   t.plan(2)
   t.is(a(), 'a')
-  t.is(b(), 'b')
+  t.is(`${b()}c`, 'bc')
 })
