@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.1](https://github.com/harrysolovay/testing-lerna-cz/compare/testing-lerna-cz-a@1.3.0...testing-lerna-cz-a@1.3.1) (2019-03-05)
+
+
+### Bug Fixes
+
+* **some fix:** skdfalsdasdg ([e507b69](https://github.com/harrysolovay/testing-lerna-cz/commit/e507b69))
+
+
+
+
+
 # 1.3.0 (2019-03-05)
 
 
